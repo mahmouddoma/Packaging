@@ -407,7 +407,7 @@ nav {
 /*Grow*/
 
 .grow {
-    padding: 15% 0;
+    padding: 0;
     width: 100%;
 }
 
@@ -531,7 +531,7 @@ nav {
 .section-2 {
     background-image: url(../Image/millennial-asia-businessmen-businesswomen-meeting-brainstorming-ideas-about-new-paperwork-project-colleagues-working-together-planning-success-strategy-enjoy-teamwork-small-modern-night-office.jpg);
     padding: 10% 0px;
-    margin: -275px 0px;
+    margin: -100px 0px;
     text-align: center;
     background-position: 50% 50%;
 }
@@ -609,5 +609,114 @@ nav {
 }
 
 .p-section2 button:hover {
+    background-color: #626e82;
+}
+
+/*Our Projects*/
+.our-project {
+    content: "";
+    padding: 17% 0;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    height: 866px;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #eee2ce;
+
+}
+
+.our-project .title {
+    margin-top: -135px;
+}
+
+.our-project .title h1{
+    content: "";
+    color: rgb(66, 84, 101);
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.our-project .title p {
+    
+    font-family: 'PT Sans', sans-serif !important;
+    margin-top: 40px;
+    font-size: 30px;
+   
+
+}
+
+
+.our-project .img-our-project {
+    height: 866px;
+    margin-top: 60px;
+    margin-bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 17px;
+    padding: 0 35px;
+  
+}
+
+.our-project .img-our-project img{
+    content: '';
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+    padding: 20px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.our-project .img-our-project img:hover {
+    transform: scale(1.2);
+}
+
+.our-project h2 {
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(80, 75, 75);
+    margin-top: 20px;
+    letter-spacing: 3px;
+}
+
+.our-project a {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: rgb(80, 75, 75);
+
+}
+
+.our-project a:hover {
+    text-decoration: none;
+    transition: 1s;
+}
+
+
+.our-project button {
+    content: '';
+    width: 50%;
+    height: 20%;
+    border-radius: 50px;
+    background-color: #283d60;
+    cursor: pointer;
+    min-height: 85px;
+    letter-spacing: 3px;
+    background-image: none;
+    border-style: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 0 0;
+    width: 20%;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.our-project button:hover {
     background-color: #626e82;
 }
