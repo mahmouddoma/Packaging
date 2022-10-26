@@ -702,7 +702,7 @@ nav {
     width: 50%;
     height: 20%;
     border-radius: 50px;
-    background-color: #283d60;
+    background-color: #555c66;
     cursor: pointer;
     min-height: 85px;
     letter-spacing: 3px;
@@ -719,4 +719,131 @@ nav {
 
 .our-project button:hover {
     background-color: #626e82;
+}
+
+/*contact*/
+
+.contact {
+    content: '';
+    bottom: 0;
+    padding: 45% 0;
+    justify-content: center;
+    display: flex;
+    flex-direction: initial;
+}
+
+.contact .background {
+    width: calc(((100% - 1145px) / 2) + 442px);
+    height: 116vh;
+    left: 0;
+    right: auto;
+    background-color: #eee2ce;
+    margin-top: -56px;
+}
+
+.contact img {
+    content: '';
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    padding: 0 0;
+    border-radius: 70px;
+    margin-left: -573px;
+}
+
+.contact .contact-input {
+    content: '';
+}
+
+.contact .contact-input h1 {
+    color: #425465;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 35px;
+    margin-left: -485px;
+
+}
+
+.contact .contact-input input {   
+    display: block;
+    margin-top: 20px;
+    width: 230%;
+    height: 8%;
+    margin-left: -485px;
+    padding: 20px 10px;
+    background-image: none;
+    background-clip: padding-box;
+    border: none;
+    border-radius: 3px;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    background-color: #f2f2f2;
+    color: inherit;
+}
+
+
+.contact .contact-input input[type="massage" i]{
+    height: 215px;}
+
+ .contact .contact-input input[type="submit" i] {
+    cursor: pointer;
+    background-color: #425465;
+    color: #f2f2f2;
+    text-transform: uppercase;
+
+    
+}
+.contact .contact-input input[type="submit" i]:hover {
+    background-color: #131212;
+}
+
+.contact .right-content {
+    content: '';
+    display: flow-root;
+    margin-top: 28%;
+    margin-left: -155%;
+}
+
+.contact  h2 {
+    content: '';
+    text-transform: none;
+    margin: 32px auto 0 0;
+    color: #425465;
+    margin-top: -30px;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.contact h3 {
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(80, 75, 75);
+    margin-top: 20px;
+    letter-spacing: 3px;
+}
+
+.contact a {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: rgb(80, 75, 75);
+
+}
+
+.contact a:hover {
+    text-decoration: none;
+    transition: 1s;
+}
+
+.contact .li-fa {
+    content: '';
+    letter-spacing: 10px;
+    white-space: nowrap;
+    height: 39px;
+    min-height: 16px;
+    width: 207px;
+    min-width: 124px;
+    margin: 32px auto 1px 3px;
+    color: #425465;
+    cursor: pointer;
 }
